@@ -4,6 +4,8 @@
  * and open the template in the editor.
  */
 package conexion3;
+import interfaz3.Interfaz3;
+import javax.swing.JFrame;
 
 /******************************************************************************
  *
@@ -19,6 +21,10 @@ package conexion3;
 
 
 
-public class Conexion3 {
+public class Conexion3 
+{
+    
+    
+    
     
 }
