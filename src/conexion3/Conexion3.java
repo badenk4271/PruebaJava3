@@ -5,10 +5,20 @@
  */
 package conexion3;
 
-/**
+/******************************************************************************
  *
+ *Alejandro yavara Vargas
+ * 
+ * Fecha: Noviembre 3 de 2017
+ * Programa:PruebaJaba3
+ * Responsabilidad: Clase conexion
+ * conexion
  * @author LAB01
- */
+ ******************************************************************************/
+
+
+
+
 public class Conexion3 {
     
 }
