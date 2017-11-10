@@ -18,7 +18,7 @@ import java.awt.event.*;
  * @author LAB01
  * 
  ******************************************************************************/
-public class Interfaz3 
+public class Interfaz3 extends JFrame
 {
  JPanel panel;
  JLabel label;
@@ -28,7 +28,25 @@ public class Interfaz3
  
  
  ConexionBD con;
- public Interfaz() 
+ public Interfaz3() 
+ {
  
+     panel= new JPanel();
+     label = new JLabel();
+     text = new JTextField(20);
+     boton = new JButton();
+     boton2 = new JButton();
+     this.add(panel);
+     panel.add(label);
+     panel.add(text);
+     panel.add(boton);
+     panel.add(boton2);
+     
+     label.setText("Atributo");
+     boton.setText("Conectar");
+     boton2.setText("Desconectar");
+     panel.setBackground(Color.orange); 
+     
 }
 
+}
