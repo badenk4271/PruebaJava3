@@ -30,8 +30,7 @@ public class Interfaz3 extends JFrame
  ConexionBD con;
  public Interfaz3() 
  {
- 
-     panel= new JPanel();
+ panel= new JPanel();
      label = new JLabel();
      text = new JTextField(20);
      boton = new JButton();
@@ -45,8 +44,37 @@ public class Interfaz3 extends JFrame
      label.setText("Atributo");
      boton.setText("Conectar");
      boton2.setText("Desconectar");
-     panel.setBackground(Color.orange); 
+     panel.setBackground(Color.orange);
      
-}
+     
+     boton.addActionListener(new ActionListener()
+     
+ {
+     public void actionPerformed(ActionEvent evt)
+     {
+         con = new ConexionBD();
+         Connection reg = con.conectar();
+     }
+ });
+ 
+ boton2.addActionListener(new ActionListener()
+ 
+ {
+     public void actionPerformed(ActionEvent evt)
+     {
+         con.desconectar();
+         
+     }
+ });
+     
+             
+             
+             
+             
+             
+ 
+             }
+ 
+
 
 }
